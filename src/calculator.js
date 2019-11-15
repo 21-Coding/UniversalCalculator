@@ -9,19 +9,22 @@ const jupiter = 11.86;
 // Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
 
 export class Calculator {
-  this.birthday = birthday;
-}
+
+  construct(){
+    this.birthday = birthday;
+  }
+
+
+  Calculator.prototype.getAge = function(){
+
+  };
 
 
 
 
-};
 
 
 
-Calculator.prototype.getAge = function(){
-
-};
 
 
 
@@ -30,4 +33,5 @@ Calculator.prototype.getAge = function(){
 
 
 
+};
 // If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy.

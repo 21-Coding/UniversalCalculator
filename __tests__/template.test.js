@@ -5,6 +5,7 @@ const userBirthday;
 
 
   describe("Calculator", () => {
-    test("should show the users current age in Mercury years", ( => {
+    test("should show the users current age.", ( => {
+
     });
   });
