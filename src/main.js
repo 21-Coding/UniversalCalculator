@@ -1,5 +1,5 @@
 // Frontend Logic
-import { } from './../src/template.js'
+import { Calculator } from './../src/calculator.js'
 
 
 $(document).ready(function(){
