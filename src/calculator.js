@@ -4,7 +4,7 @@
 // Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
 // Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
 
-export class Calculator {
+export class Being {
 
   construct(){
     this.birthday = birthday;
@@ -19,7 +19,7 @@ export class Calculator {
     const mercury = .24;
   }
 
-  
+
 
 
 

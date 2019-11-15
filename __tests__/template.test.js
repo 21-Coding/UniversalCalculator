@@ -1,9 +1,9 @@
-import { Calculator } from './../src/calculator.js';
+import { Being } from './../src/calculator.js';
 
 
 
-describe("Calculator", () => {
-  test("should show the users current age.", ( => {
+describe("Being", () => {
+  test("should show the users current age on mercury.", ( => {
     expect(enteredDate.userAge()).toEqual(birthday);
   });
 });
