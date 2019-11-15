@@ -13,12 +13,13 @@ export class Calculator {
 
   userAge(){
     const enteredDate = this.birthday * 365;
-
   }
 
   heyMercury(){
     const mercury = .24;
   }
+
+  
 
 
 
