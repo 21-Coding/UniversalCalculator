@@ -1,8 +1,4 @@
 // Backend Logic
-const mercury = .24;
-const venus = .62;
-const mars = 1.88;
-const jupiter = 11.86;
 // // Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
 // Returns their age in Venus years. (A Venus year is .62 Earth years.)
 // Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
@@ -12,12 +8,20 @@ export class Calculator {
 
   construct(){
     this.birthday = birthday;
+    this.lifeLength = [];
+  }
+
+  userAge(){
+    const enteredDate = this.birthday * 365;
+
+  }
+
+  heyMercury(){
+    const mercury = .24;
   }
 
 
-  Calculator.prototype.getAge = function(){
 
-  };
 
 
 
