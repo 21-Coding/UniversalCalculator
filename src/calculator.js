@@ -17,6 +17,8 @@ export class Being {
 
   heyMercury(){
     const mercury = .24;
+    let ageMercury = this.userAge(this.enteredDate) / mercury;
+    return mercuryYears;  
   }
 
 
