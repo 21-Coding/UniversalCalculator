@@ -6,20 +6,22 @@
 
 export class Being {
 
-  construct(){
-    this.birthday = birthday;
-    this.lifeLength = [];
+  constructor (age){
+    this.age = age;
+
   }
 
-  userAge(){
-    const enteredDate = this.birthday * 365;
+  ageCalculator(){
+    let user = this.age * 365
+    return age;
   }
 
   heyMercury(){
     const mercury = .24;
-    let ageMercury = this.userAge(this.enteredDate) / mercury;
-    return mercuryYears;  
+    let ageMercury = Math.floor(this.age / mercury);
+    return mercury;
   }
+};
 
 
 
@@ -40,5 +42,4 @@ export class Being {
 
 
 
-};
 // If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy.
