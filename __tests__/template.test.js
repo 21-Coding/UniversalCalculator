@@ -7,4 +7,6 @@ describe("Being", () => {
     let user = new Being(21)
     expect(user.age).toEqual(21);
   });
+
+
 });
