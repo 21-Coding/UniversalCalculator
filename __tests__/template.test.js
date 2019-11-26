@@ -29,6 +29,6 @@ describe("Being", () => {
   test("should show the users current age on Venus.", () => {
     let user = new Being(21)
      user.heyVenus();
-    expect(user.venus).toEqual(11);
+    expect(user.venus).toEqual(34);
   });
 });

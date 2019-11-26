@@ -7,6 +7,7 @@ export class Being {
     this.mercury = .24;
     this.jupiter = 11.86;
     this.mars = 1.88;
+    this.venus = .62;
   }
 
   ageCalculator(){
