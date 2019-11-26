@@ -11,6 +11,6 @@ describe("Being", () => {
   test("should show the users current age on Mercury.", () =>{
     let user = new Being(21)
     const mercAge = user.heyMercury();
-    expect(mercAge).toEqual(87.5);
+    expect(user.age).toBe(87.5);
   });
 });

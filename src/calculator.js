@@ -15,5 +15,6 @@ export class Being {
   heyMercury(){
     const mer = .24;
     this.mercury = Math.round(this.age/ mer);
+    return this.mercury;
   }
 };
