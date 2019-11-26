@@ -4,7 +4,8 @@ export class Being {
 
   constructor (age){
     this.age = age;
-
+    this.mercury = .24;
+    // this.jupiter = 11.86;
   }
 
   ageCalculator(){
@@ -13,8 +14,14 @@ export class Being {
   }
 
   heyMercury(){
-    const mer = .24;
-    this.mercury = Math.round(this.age/ mer);
-    return this.mercury;
+
+    this.mercury = Math.round(this.age/ this.mercury);
+
   }
+
+  // heyJupiter(){
+  //
+  //   this.mercury = Math.round(this.age/ this.mercury);
+  //
+  // }
 };

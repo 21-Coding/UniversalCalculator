@@ -8,9 +8,15 @@ describe("Being", () => {
     expect(user.age).toEqual(21);
   });
 
-  test("should show the users current age on Mercury.", () =>{
+  test("should show the users current age on Mercury.", () => {
     let user = new Being(21)
-    const mercAge = user.heyMercury();
-    expect(user.age).toBe(87.5);
+     user.heyMercury();
+    expect(user.mercury).toEqual(88);
   });
+
+  // test("should show the users current age on Jupiter.", () => {
+  //   let user = new Being(21)
+  //    user.heyMercury();
+  //   expect(user.mercury).toEqual(88);
+  // });
 });
